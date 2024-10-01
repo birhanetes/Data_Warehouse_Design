@@ -22,6 +22,3 @@ You are a data engineer hired by a solid waste management company. The company c
       •	Total waste collected per truck type per city
       
       •	Total waste collected per truck type per station per city 
-      
- 
-After the initial schema design, you were told that due to operational issues, data could not be collected in the format initially planned. This implies that the previous tables (MyDimDate, MyDimWaste, MyDimZone, MyFactTrips) in the Project database and their associated attributes are no longer applicable to the current design. The company has now provided data in CSV files with new tables DimTruck and DimStation as per the new design.
